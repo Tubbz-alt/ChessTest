@@ -1,0 +1,17 @@
+﻿<Window x:Class="ChessTest.Connect"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="Connect" Height="225" Width="467">
+  
+
+    <Grid Height="181">
+        <Expander Header="Conectar por internet" Margin="12,69,12,12" Name="expander1" IsExpanded="False" IsHitTestVisible="True" Visibility="Visible">
+            <Grid>
+                <Label HorizontalAlignment="Left" Margin="6,14,0,36" Name="label1" Width="138">Dirección IP</Label>
+                <TextBox Margin="89,18,151,36" Name="iptarget" />
+                <Button Template="{DynamicResource GlassButton}" HorizontalAlignment="Right" Margin="0,18,70,36" Name="btnconnect" Width="75" Click="bntconnect_Click">Conectar</Button>
+            </Grid>
+        </Expander>
+        <Button Height="39" Background="#EDF7FF" HorizontalAlignment="Left" Margin="20,12,0,0" Name="btnlisten" VerticalAlignment="Top" Width="137" Click="btnlisten_Click">Empezar servidor</Button>
+    </Grid>
+</Window>
