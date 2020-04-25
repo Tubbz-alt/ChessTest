@@ -2,9 +2,13 @@
 
 Chess game developed in **C#**
 
-Chess game with *Online Mode* or against the computer.
+With *Online Mode* or against the computer.
+
+
 
 ![Settings Window](/screenshot.jpg)
+
+
 
 ## Licence 
 
